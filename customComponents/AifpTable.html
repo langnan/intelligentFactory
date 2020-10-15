@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>AifpTable | 启业云智能工厂</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="Just playing around">
+    <link rel="preload" href="/intelligentFactory/assets/css/0.styles.3e01970e.css" as="style"><link rel="preload" href="/intelligentFactory/assets/js/app.fa1b2b13.js" as="script"><link rel="preload" href="/intelligentFactory/assets/js/2.0da811fd.js" as="script"><link rel="preload" href="/intelligentFactory/assets/js/6.374031c4.js" as="script"><link rel="prefetch" href="/intelligentFactory/assets/js/10.9198c554.js"><link rel="prefetch" href="/intelligentFactory/assets/js/11.a8cb9729.js"><link rel="prefetch" href="/intelligentFactory/assets/js/12.c9aa6659.js"><link rel="prefetch" href="/intelligentFactory/assets/js/13.83e8b8b9.js"><link rel="prefetch" href="/intelligentFactory/assets/js/14.abb67bfb.js"><link rel="prefetch" href="/intelligentFactory/assets/js/15.54f7b058.js"><link rel="prefetch" href="/intelligentFactory/assets/js/3.c4ce14f4.js"><link rel="prefetch" href="/intelligentFactory/assets/js/4.74030712.js"><link rel="prefetch" href="/intelligentFactory/assets/js/5.fc15350e.js"><link rel="prefetch" href="/intelligentFactory/assets/js/7.40b1545d.js"><link rel="prefetch" href="/intelligentFactory/assets/js/8.8f460d97.js"><link rel="prefetch" href="/intelligentFactory/assets/js/9.ffdab250.js">
+    <link rel="stylesheet" href="/intelligentFactory/assets/css/0.styles.3e01970e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/intelligentFactory/" class="home-link router-link-active"><!----> <span class="site-name">启业云智能工厂</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/intelligentFactory/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发规范" class="dropdown-title"><span class="title">开发规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发规范" class="mobile-dropdown-title"><span class="title">开发规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端规范
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/gitStandard.html" class="nav-link">
+  vue代码片段配置
+</a></li><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/eslintStandard.html" class="nav-link">
+  eslint规范
+</a></li><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/annotation.html" class="nav-link">
+  注释规范
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/intelligentFactory/customComponents/" class="nav-link router-link-active">
+  aifp-ui
+</a></div><div class="nav-item"><a href="http://192.168.0.159:8080/lego/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  lego组件库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://git.qpaas.com/AIFP" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  代码仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/intelligentFactory/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发规范" class="dropdown-title"><span class="title">开发规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发规范" class="mobile-dropdown-title"><span class="title">开发规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端规范
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/gitStandard.html" class="nav-link">
+  vue代码片段配置
+</a></li><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/eslintStandard.html" class="nav-link">
+  eslint规范
+</a></li><li class="dropdown-subitem"><a href="/intelligentFactory/frontEndStandard/annotation.html" class="nav-link">
+  注释规范
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/intelligentFactory/customComponents/" class="nav-link router-link-active">
+  aifp-ui
+</a></div><div class="nav-item"><a href="http://192.168.0.159:8080/lego/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  lego组件库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://git.qpaas.com/AIFP" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  代码仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>aifp-ui</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/intelligentFactory/customComponents/" aria-current="page" class="sidebar-link">快速开始</a></li><li><a href="/intelligentFactory/customComponents/AifpTable.html" aria-current="page" class="active sidebar-link">AifpTable</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/intelligentFactory/customComponents/AifpTable.html#aifptable组件的使用" class="sidebar-link">AifpTable组件的使用</a></li></ul></li><li><a href="/intelligentFactory/customComponents/TimeCyclePicker.html" class="sidebar-link">TimeCyclePicker</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="aifptable"><a href="#aifptable" class="header-anchor">#</a> AifpTable</h1> <h2 id="aifptable组件的使用"><a href="#aifptable组件的使用" class="header-anchor">#</a> AifpTable组件的使用</h2> <h3 id="引入组件"><a href="#引入组件" class="header-anchor">#</a> 引入组件</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span>AifpTable<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'aifp-ui'</span>
+</code></pre></div><h3 id="组件参数"><a href="#组件参数" class="header-anchor">#</a> 组件参数</h3> <div class="language-js extra-class"><pre class="language-js"><code>props用法介绍：
+tableJson<span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'序号'</span><span class="token punctuation">,</span><span class="token comment">//行序号</span>
+          type<span class="token operator">:</span><span class="token string">&quot;&quot;</span><span class="token punctuation">,</span><span class="token comment">// 文本还是jsx,renderHtml为jsx类型，空或者其他任意值为普通文本</span>
+          width<span class="token operator">:</span><span class="token string">'100'</span><span class="token punctuation">,</span><span class="token comment">// 列宽度</span>
+          minWidth<span class="token operator">:</span><span class="token string">'100'</span><span class="token punctuation">,</span><span class="token comment">//最小宽度</span>
+          field<span class="token operator">:</span><span class="token string">'code'</span><span class="token punctuation">,</span><span class="token comment">//或者使用name,即在tableData中对应的字段</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span><span class="token comment">// 列对齐方式</span>
+          sortable<span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">//功能还未开放</span>
+          showOverflowTooltip<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//文本超出时是否显示tooltip</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+tableData<span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          code<span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+          type<span class="token operator">:</span> <span class="token string">'业务指标'</span><span class="token punctuation">,</span>
+          name<span class="token operator">:</span> <span class="token string">'产品产量'</span><span class="token punctuation">,</span>
+          index<span class="token operator">:</span> <span class="token string">'产品产量'</span><span class="token punctuation">,</span>
+          valueType<span class="token operator">:</span> <span class="token string">'模拟量'</span><span class="token punctuation">,</span>
+          unit<span class="token operator">:</span> <span class="token string">'%'</span><span class="token punctuation">,</span>
+          range<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+          status<span class="token operator">:</span> <span class="token string">'有效'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+  <span class="token comment">// 行数据的 Key，用来优化 Table 的渲染；在使用 reserve-selection 功能与显示树形数据时，该属性是必填的</span>
+    rowKey<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token string">&quot;id&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否加载...</span>
+    loading<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 行序号</span>
+    orderNumber<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否开启多选，单独作为一个配置</span>
+    checkbox<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否有操作列，单独提取成一个配置</span>
+    hasOpreate<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 带边框表格</span>
+    border<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否有斑马纹</span>
+    stripeOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Object<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+          <span class="token comment">// 是否显示</span>
+          show<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          <span class="token comment">// 是奇数行还是偶数行</span>
+          odd<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 表格头部样式</span>
+    headerCellStyle<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Object<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 多选数据</span>
+    multipleSelection<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Array<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 当前多少页</span>
+    currentPage<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 总数</span>
+    total<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 每页多少条</span>
+    pageSize<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 分页下拉选数据</span>
+    pageSizes<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Array<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 分页是否显示</span>
+    pagination<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 分页选配</span>
+    paginationLayout<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token string">&quot;total, sizes, prev, pager, next, jumper&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 格式化函数</span>
+    formatter<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Function<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">row<span class="token punctuation">,</span>item<span class="token punctuation">,</span>field</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+
+events<span class="token operator">:</span>
+select<span class="token operator">-</span>all当用户手动勾选全选 Checkbox 时触发的事件
+selection<span class="token operator">-</span>change当选择项发生变化时会触发该事件
+select当用户手动勾选数据行的 Checkbox 时触发的事件
+size<span class="token operator">-</span>change pageSize 改变时会触发
+current<span class="token operator">-</span>change currentPage 改变时会触发
+row<span class="token operator">-</span>edit<span class="token operator">-</span>change 行编辑事件，需要用到行编辑时可以通过这个函数拿到当前编辑的字段和该行的数据
+
+ <span class="token operator">--</span><span class="token operator">&gt;</span>
+</code></pre></div><h3 id="表格列jsx功能"><a href="#表格列jsx功能" class="header-anchor">#</a> 表格列jsx功能</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app-container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>header<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">&gt;</span></span>《大风车》客户端<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span> 版本列表<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Table</span>
+      <span class="token attr-name">:pagination</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:order-number</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:header-cell-</span><span class="token style-attr language-css"><span class="token attr-name"><span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value">headerCellStyle</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:table-json</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>tableJson<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:table-data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>tableData<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> Table <span class="token keyword">from</span> <span class="token string">'@/components/CommonTable/CommonTable.vue'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'VersionManagement'</span><span class="token punctuation">,</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    Table
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      headerCellStyle<span class="token operator">:</span> <span class="token punctuation">{</span>
+        color<span class="token operator">:</span> <span class="token string">'#404040'</span><span class="token punctuation">,</span>
+        fontSize<span class="token operator">:</span> <span class="token string">'15px'</span><span class="token punctuation">,</span>
+        fontWeight<span class="token operator">:</span> <span class="token string">'bolder'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      tableJson<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'分支'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'branch'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          width<span class="token operator">:</span> <span class="token string">'80px'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'版本'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'version'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          width<span class="token operator">:</span> <span class="token string">'80px'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'下载路径'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'download'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'介绍'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'des'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'状态'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'status'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'操作'</span><span class="token punctuation">,</span>
+          type<span class="token operator">:</span> <span class="token string">'renderHtml'</span><span class="token punctuation">,</span><span class="token comment">//只有设置了改属性为renderHtml，render参数才会生效</span>
+          field<span class="token operator">:</span> <span class="token string">'opreate'</span><span class="token punctuation">,</span>
+          align<span class="token operator">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+          sortable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">h<span class="token punctuation">,</span> col<span class="token punctuation">,</span> row</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">renderHtml</span><span class="token punctuation">(</span>h<span class="token punctuation">,</span> col<span class="token punctuation">,</span> row<span class="token punctuation">)</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      tableData<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          branch<span class="token operator">:</span> <span class="token string">'master'</span><span class="token punctuation">,</span>
+          version<span class="token operator">:</span> <span class="token string">'2.7.3'</span><span class="token punctuation">,</span>
+          download<span class="token operator">:</span> <span class="token string">'http://pinwheel.qpaas.com/sharefile/PinWheel_2.7.3.zip'</span><span class="token punctuation">,</span>
+          des<span class="token operator">:</span>
+            <span class="token string">'新增：自定义替换平台访问域名；如果是假域名，则需要添加hosts。DataOcean多仓库切换分支； 新增gateway服务。JumpServer新的Web Shell管理控制台；自动创建资产。自主创建VsCode在线编辑器；'</span><span class="token punctuation">,</span>
+          status<span class="token operator">:</span> <span class="token string">'当前运行'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          branch<span class="token operator">:</span> <span class="token string">'master'</span><span class="token punctuation">,</span>
+          version<span class="token operator">:</span> <span class="token string">'2.7.3'</span><span class="token punctuation">,</span>
+          download<span class="token operator">:</span> <span class="token string">'http://pinwheel.qpaas.com/sharefile/PinWheel_2.7.3.zip'</span><span class="token punctuation">,</span>
+          des<span class="token operator">:</span>
+            <span class="token string">'新增：自定义替换平台访问域名；如果是假域名，则需要添加hosts。DataOcean多仓库切换分支； 新增gateway服务。JumpServer新的Web Shell管理控制台；自动创建资产。自主创建VsCode在线编辑器；'</span><span class="token punctuation">,</span>
+          status<span class="token operator">:</span> <span class="token string">'当前运行'</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'哈哈哈哈哈、'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">renderHtml</span><span class="token punctuation">(</span><span class="token parameter">h<span class="token punctuation">,</span> col<span class="token punctuation">,</span> row</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 这里面可以写jsx，操作列可以选择使用插槽，也可以使用jsx来做，根据你的项目的需求酌情选择，</span>
+      <span class="token comment">// 此方法对每一列都生效，前提是tableJson中该列的type属性为renderHtml，type为其他值时，方法不执行</span>
+      <span class="token comment">// 该方法与formatter方法有一定程度的重合</span>
+      <span class="token keyword">return</span> <span class="token punctuation">(</span>
+        <span class="token operator">&lt;</span>el<span class="token operator">-</span>button size<span class="token operator">=</span><span class="token string">'mini'</span> onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>click<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+          示例
+        <span class="token operator">&lt;</span><span class="token operator">/</span>el<span class="token operator">-</span>button<span class="token operator">&gt;</span>
+      <span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">scoped</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token selector">.app-container</span> <span class="token punctuation">{</span>
+  <span class="token selector">.header</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #333333<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> transparent<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> #ddd<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
+    <span class="token property">font-weight</span><span class="token punctuation">:</span> 300<span class="token punctuation">;</span>
+    <span class="token property">padding-left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding-right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0 20px<span class="token punctuation">;</span>
+    <span class="token property">border-bottom-width</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 3px 3px 0 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 20px 0px 10px<span class="token punctuation">;</span>
+    <span class="token property">border-bottom</span><span class="token punctuation">:</span> 1px solid transparent<span class="token punctuation">;</span>
+    <span class="token property">border-top-right-radius</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">border-top-left-radius</span><span class="token punctuation">:</span> 2px<span class="token selector">;
+    b</span> <span class="token punctuation">{</span>
+      <span class="token property">font-weight</span><span class="token punctuation">:</span> bold<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/intelligentFactory/customComponents/" class="prev router-link-active">
+        快速开始
+      </a></span> <span class="next"><a href="/intelligentFactory/customComponents/TimeCyclePicker.html">
+        TimeCyclePicker
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/intelligentFactory/assets/js/app.fa1b2b13.js" defer></script><script src="/intelligentFactory/assets/js/2.0da811fd.js" defer></script><script src="/intelligentFactory/assets/js/6.374031c4.js" defer></script>
+  </body>
+</html>
